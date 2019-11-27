@@ -15,5 +15,5 @@ Windows:
 1. Read Chrome documentation on Native Messaging (path to the native app should be added to the registry)
 3. Node should be the default program for opening js files.
 3. Read information from the mentioned repositories.
-4. Compile C++ files (you need Visual Studio, Build tools, Python, C++ module for Visual Studio)
+4. Compile C++ files (you need `Visual Studio`, `Python`, `C++ Development Tools` for `Visual Studio`)
 5. If you have all of the above, `npm install` should compile the C++ file. 
