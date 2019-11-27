@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name"            : "Native Messaging",
+  "version"         : "1.0.0",
+  "description"     : "Native Messaging",
+"key": "MIGfMA3GCSqGSIb3DFEBAQUAA4GNADCBiQKBgQDcBHwzDvyBQ6bDppkIs9MP4ksKqCMyXQ/A52JivHZKh4YO/9vJsT3oaZhSpDCE9RCocOEQvwsHsFReW2nUEc6OLLyoCFFxIb7KkLGsmfakkut/fFdNJYh0xOTbSN8YvLWcqph09XAY2Y/f0AL7vfO1cuCqtkMt8hFrBGWxDdf9CQIDAQAB",
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://lichess.org/*",
+                "https://lichess.dev/*"
+            ],
+           "js": [
+                "./jquery.min.js",
+                "./code.js"               
+            ]
+        }
+    ],
+  "permissions": [
+    "nativeMessaging"
+  ]
+}
