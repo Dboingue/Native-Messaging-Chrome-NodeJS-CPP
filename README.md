@@ -1,4 +1,4 @@
-# Native-Messaging-Chrome-NodeJS-C++
+# Native Messaging Chrome NodeJS C++
 C++ addon through NodeJS communicating with a Chrome Extension via Native Messaging
 
 # Produces system beeps on Windows when a move is made. 
